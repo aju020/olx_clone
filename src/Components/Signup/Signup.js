@@ -4,7 +4,7 @@ import './Signup.css';
 import { useState } from 'react';
 import { useContext } from 'react';
 import { FirebaseContext } from '../../store/Context';
-import {useHistory} from 'react-router-dom'
+import {useHistory,Link} from 'react-router-dom'
 
 export default function Signup() {
 
@@ -89,7 +89,7 @@ export default function Signup() {
           <br />
           <button>Signup</button>
         </form>
-        <a>Login</a>
+        <Link to="/login" className='loginButton'>LogIn</Link>
       </div>
     </div>
   );

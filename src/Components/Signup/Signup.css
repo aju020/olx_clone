@@ -35,4 +35,23 @@
     justify-content: center;
     cursor: pointer;
   }
-  
+  .loginButton {
+        background-color: #002f34;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 900;
+        cursor: pointer;
+        margin-top: 10px; /* Add space between the buttons */
+      }
+      
+      .loginButton:hover,
+      .loginButton:focus,
+      .loginButton:active {
+        outline: none;
+        text-decoration: none;
+      }
+      

@@ -3,7 +3,7 @@ import { FirebaseContext } from '../../store/Context';
 import Logo from '../../olx-logo.png';
 import './Login.css';
 import { useState,useContext } from 'react';
-import {useHistory} from 'react-router-dom'
+import {useHistory,Link} from 'react-router-dom'
 
 function Login() {
         const history = useHistory()
@@ -52,9 +52,12 @@ function Login() {
           />
           <br />
           <br />
-          <button>Login</button>
+          <button type='submit' className='loginButton'>Login</button>
         </form>
-        <a>Signup</a>
+
+                <Link to="/signup" className='signupButton'>Signup</Link>
+
+        
       </div>
     </div>
   );

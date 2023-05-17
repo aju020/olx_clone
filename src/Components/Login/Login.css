@@ -35,4 +35,33 @@
     justify-content: center;
     cursor: pointer;
   }
+
+  .loginButton,
+  .signupButton {
+    background-color: #002f34;
+    color: whitesmoke;    
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add space between the buttons */
+  }
   
+  .loginButton:hover,
+  .loginButton:focus,
+  .loginButton:active,
+  .signupButton:hover,
+  .signupButton:focus,
+  .signupButton:active {
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
+
+
+      
+      
